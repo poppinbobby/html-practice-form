@@ -1,0 +1,86 @@
+<!--HTML SETUP-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Form</title>
+</head>
+
+
+<body>
+
+    <!--create a basic survery form for the students and faculty of a/A-->
+    <form method="post">
+        <fieldset>
+            <legend>Add user</legend>
+
+            <!-- First name text box -->
+            <div>
+                <label>First Name</label>
+                <input type="text">
+            </div>
+
+            <!-- name and email -->
+            <div>
+                <label>Last Name</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>Email Address</label>
+                <input type="text">
+            </div>
+
+
+            <!-- dropdown list for status -->
+            <div>
+                <label for="status">status</label>
+                <select name="user-status" id="">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+
+            <!-- radio buttons for fav language -->
+            <div>
+                <p>Choose your favorite programming langauge</p>
+                <input type="radio">
+                <label for="html">HTML</label>
+                <div>
+                    <input type="radio">
+                    <label for="css">CSS</label>
+                </div>
+                <div>
+                    <input type="radio">
+                    <label for="javaScript">JavaScript</label>
+                </div>
+            </div>
+
+            <!-- additional information -->
+            <div>
+                <label for="comments">Comments</label>
+                <input type="text">
+            </div>
+            <label for="date">Date</label>
+            <input type="date">
+
+            <!-- submission -->
+            <div>
+                <label for="newsletter">Sign up for newsletter</label>
+                <input type="checkbox">
+            </div>
+            <div>
+                <label for="terms">Agree to terms and conditions</label>
+                <input type="checkbox">
+            </div>
+            <div>
+                <button><label for="submit">Submit</label></button>
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
